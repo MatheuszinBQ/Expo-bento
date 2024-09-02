@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expo Bentinho- Geolocalizador por ip</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-logo"><span><b>GeoIP</b></span></div>
+        <ul class="navbar-menu">
+            <li><a href="#"><b>Início</b></a></li>
+            <li><a href="#"><b>Sobre</b></a></li>
+            <li><a href="#"><b>Contato</b></a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1><span class="highlight">Descubra</span> a Localização de um Endereço IP</h1>
+        <div class="input-group">
+            <input type="text" id="ipInput" placeholder="Digite um endereço IP">
+            <button id="geoButton"><i class="fas fa-search-location"></i> Obter Localização</button>
+        </div>
+        <div id="result" class="result-box hidden">
+            <p>As informações sobre a localização aparecerão aqui.</p>
+        </div>
+    </div>
+    <footer>
+        <p>EXPO BENTINHO - Geolocalizador por IP</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
